@@ -6,5 +6,6 @@ const employeeController = require("../../controllers/employeeController");
 
 router.get("/help" , helpController.helpDetails);
 router.patch("/employee" , employeeController.update);
+router.get("/employee/:id/tax" , employeeController.calculateTax);
 
 module.exports = router;
