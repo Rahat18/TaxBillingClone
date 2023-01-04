@@ -49,11 +49,11 @@ app.listen(3000 , async()=>{
 //this callback will be executed every time the server starts
     console.log("Server started Successfully");
       
-    let user = await User.create({
-        email:"abc@xyz.com" ,
-        password:12345,
-        username:"ABCD"
-    });
-    console.log(user);
+    // let user = await User.create({
+    //     email:"anjum@xyz.com" ,
+    //     password:12345,
+    //     username:"ABCD"
+    // });
+    // console.log(user);
     
 })
